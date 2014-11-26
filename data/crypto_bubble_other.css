@@ -1,0 +1,43 @@
+#crypto_bubble, #crypto_banner_top{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: auto;
+    margin: -100px -150px;
+    background: #000;
+    border: 3px solid #FFF;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+    color: #FFF;
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+    padding: 5px;
+    z-index: 999999999999999;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 32px;
+}
+#retry_crypto, #create_crypto, #cancel_crypto{
+    font-size: 30px;
+    color: #9CF;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: inherit;
+}
+#retry_crypto:hover, #create_crypto:hover, #cancel_crypto:hover{
+    text-decoration: underline;
+    color: #9CF;
+}
+#retry_crypto:active, #create_crypto:active, #cancel_crypto:active{
+    text-decoration: underline;
+    color: #8BE;
+}
+#crypto_banner_top{
+    top: 0px;
+    width: 600px;
+    cursor: auto;
+    margin: 0px -300px;
+    border-radius: 0px 0px 20px 20px;
+}
